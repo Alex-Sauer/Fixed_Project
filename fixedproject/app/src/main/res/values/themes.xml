@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FixedProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryLightColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Label" parent="android:style/Widget.EditText">
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:textColor">@color/primaryLightColor</item>
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/lablSize</item>
+    </style>
+
+    <style name="Button" parent="android:style/Widget.ImageButton">
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:textColor">@color/primaryLightColor</item>
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+    </style>
+
+</resources>
+
+
+<!--<color name="primaryColor">#9bbbff</color>-->
+<!--<color name="primaryLightColor">#ceedff</color>-->
+<!--<color name="primaryDarkColor">#698bcc</color>-->
+<!--<color name="secondaryColor">#94b9ff</color>-->
+<!--<color name="secondaryLightColor">#c8ebff</color>-->
+<!--<color name="secondaryDarkColor">#6189cc</color>-->
+<!--<color name="primaryTextColor">#000000</color>-->
+<!--<color name="secondaryTextColor">#000000</color>-->

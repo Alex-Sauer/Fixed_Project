@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txtSize">50dp</dimen>
+    <dimen name="buttonSize">15dp</dimen>
+    <dimen name="screenMargin">15dp</dimen>
+    <dimen name="buttonPaddingLeft">65dp</dimen>
+    <dimen name="buttonPaddingTop">60dp</dimen>
+    <dimen name="buttonWidth">165dp</dimen>
+    <dimen name="buttonHeight">165dp</dimen>
+    <dimen name="lablSize">22dp</dimen>
+
+</resources>
